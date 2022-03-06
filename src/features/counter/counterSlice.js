@@ -1,3 +1,8 @@
+export function incrementCount() {
+  return { type: "count/increment" };
+}
+
+
 const initialState = {
   items: [],
 };
